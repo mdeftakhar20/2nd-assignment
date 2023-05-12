@@ -1,0 +1,618 @@
+body{font-family: work sans;
+}
+/*--------------------
+Navigation bar style
+--------------------- */
+
+nav{
+    margin-left: 200px;
+margin-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+}
+nav>.navigatoin-item{
+display: flex;
+gap: 040px;
+align-items: center;
+}
+.site-title{
+    font-weight: 500;
+font-size: 25px;
+color: #131313;
+}
+.navigatoin-item>div{
+    font-weight: 300;
+font-size: 16px;
+color: #424242;
+}
+.login{
+    color: #424242;
+    text-decoration: none;
+}
+
+
+/* ----------------
+Header banner style 
+------------------*/
+
+
+header{
+background-color:rgba(255, 144, 14, 0.1);
+margin-bottom: 115px;
+padding-bottom: 20px;
+}
+.banner-heading{
+    height: 200px;
+    width: 700px;
+    font-weight: 700;
+font-size: 45px;
+color: #131313;
+text-align: center;
+border: 0;
+
+
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.banner-text{
+    border-top: 0;
+    text-align: center;
+    width: 700px;
+    font-weight: 400;
+font-size: 16px;
+color: #727272;
+}
+.banner-img{
+    width: 1100px;
+}
+.banner-button{
+   
+    width: 180px;
+    height: 64px;
+    background-color: orange;
+  
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0px;
+}
+.banner-btn{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.banner-button>a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+/*---------------
+ Quick list feature part style
+ ---------------- */
+
+main{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.middle-btn{
+    width: 180px;
+    height: 64px;
+    background-color: orange;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0px;
+}
+.middle-btn>a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap:20px;
+    column-gap: 20px;
+}
+.container {
+    padding-bottom: 60px;
+    display: flex ;
+    align-items: center;
+    gap: 60px;
+}
+.text>h1{
+    font-weight: 700;
+    font-size: 45px;
+    color: #000;
+}
+.text>p{
+    height: 120px;
+    width: 400px;
+    font-weight: 400;
+font-size: 14px;
+text-align: justify;
+color: #727272;
+}
+/* quick list of our feature style */
+.q{font-weight: 400;
+       color: #727272;
+}
+
+.f{
+color: orange;
+}
+
+
+
+
+/* features for loving  */
+
+.feature-line{
+    display: flex;
+}
+.feature-line>hr{
+    border: 4px solid orange;
+}
+.feature-container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.feature-box{
+    height: 150px;
+    width:450px
+}
+.feature-box{
+    background-color: #73df485a;
+    box-shadow:4px 4px #78747481;
+}
+.feature-box>p{
+    color: #727272;
+}
+.feature-box>h1,p{
+text-align: left;
+}
+.feature-love{
+    display: flex;
+    gap: 120px;
+}
+.feature-line{
+    font-weight: 700;
+font-size: 25px;
+}
+.girlimage > button{
+    position: relative ;
+    bottom: 220px;
+    left: 8px;
+    border-radius: 5px;
+background-color: orange;
+color: antiquewhite;
+    height: 200px;
+    width: 300px;
+    border: 0px;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+/* --------------
+some facts part css
+--------------- */
+
+
+.facts{margin-right: 500px;
+    padding-bottom: 40px;
+    padding-top: 0px;
+}
+.facts>p{
+    color: #727272;
+}
+.fact-container{
+    display: flex;
+padding-bottom: 60px;
+gap: 140px;
+
+}
+.fact-info:hover{
+    background-color: lightgrey;
+    border-color: blue;
+}
+
+.fact-info>img{
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-right:60px ;
+
+}
+.fact-info>h2,p{
+   height: 40px;
+text-align: center;
+margin: 0px;
+}
+.fact-info{
+    width: 170px;
+    border-radius: 5px;
+    
+    border:#dcb90bef 3px solid;
+}
+
+/* special part from me  */
+.special{
+    align-items: center;
+}
+
+.special>h1{
+    text-align: center;
+    color: #424242;
+    font-weight: 700;
+font-size: 25px;
+}
+.special>img{
+    margin-left: 400px;
+    width: 300px;
+    
+}
+
+/* ------------------------------
+Quick list feature part html 
+----------*/
+.sponsor{
+    padding-top: 50px;
+    padding-bottom: 050px;
+    margin-left: 300px;
+    width: 550px;
+    text-align: center;
+}
+.sponsor>h1{
+    font-weight: 700;
+font-size: 45px;
+}
+.sponsor>p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.sponsor-image{
+ 
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+.sponsor1{
+    width: 150px;
+}
+/* rights reserving section */
+.right-container{
+padding-top: 80px;
+    padding-bottom: 120px ;
+}
+.rights-reserved{
+    padding-top: 20px;
+    padding-bottom: 10px ;
+    padding-left: 40px ;
+   color:#727272;
+    background-color: #b1aaaa36;
+    text-align: center;
+    font-weight: 300;
+font-size: 18px;
+border-radius: 8px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+    nav{
+        margin-left: 5px;
+    margin-right: 5px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px;
+    }
+    nav>.navigatoin-item{
+    display: flex;
+    flex-direction: column;
+    gap: 04px;
+    align-items: flex-start;
+    }
+    .site-title{
+        font-weight: 500;
+    font-size: 25px;
+    color: #131313;
+    }
+    .navigatoin-item>div{
+        font-weight: 200;
+    font-size: 12px;
+    color: #424242;
+    }
+    .login{
+        color: #424242;
+        text-decoration: none;
+    }
+    
+    header{
+        background-color:rgba(255, 144, 14, 0.1);
+        margin-bottom: 35px;
+        padding-bottom: 20px;
+        }
+        .banner-heading{
+            
+            width: 300px;
+            font-weight: 500;
+        font-size: 25px;
+        color: #131313;
+        text-align: center;
+        border: 0;
+        
+        
+        }
+        .banner{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            
+        }
+        .banner-text{
+            border-top: 0;
+            text-align: center;
+            width: 300px;
+            font-weight: 400;
+        font-size: 16px;
+        color: #727272;
+        }
+        .banner-img{
+            width: 300px;
+        }
+        .banner-button{
+           
+            width: 180px;
+            height: 64px;
+            background-color: orange;
+          
+            font-weight: 600;
+            font-size: 20px;
+            border-radius: 5px;
+            border: 0px;
+        }
+        .banner-btn{
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+        .banner-button>a{
+            color: antiquewhite;
+            text-decoration: none;
+        }
+        
+        /*---------------
+ Quick list feature part style
+ ---------------- */
+
+main{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.middle-btn{
+    width: 120px;
+    height: 44px;
+    background-color: orange;
+    font-weight: 400;
+    font-size: 12px;
+    border-radius: 5px;
+    border: 0px;
+}
+.middle-btn>a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+.images{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap:20px;
+    column-gap: 20px;
+}
+.container {
+    padding-bottom: 60px;
+    display: flex ;
+    flex-direction: column;
+    gap: 60px;
+}
+.text>h1{
+   
+    font-weight: 500;
+    font-size: 25px;
+    color: #000;
+}
+.text>p{
+    height: 180px;
+    width: 300px;
+    font-weight: 250;
+font-size: 14px;
+text-align: justify;
+color: #727272;
+}
+/* quick list of our feature style */
+.q{font-weight: 400;
+       color: #727272;
+}
+
+.f{
+color: orange;
+}
+
+/* features for loving  */
+
+.feature-line{
+    display: flex;
+
+}
+.feature-line>hr{
+    border: 4px solid orange;
+}
+.feature-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+.feature-box{
+    height: 120px;
+    width:300px
+}
+.feature-box{
+    background-color: #73df485a;
+    box-shadow:4px 4px #78747481;
+}
+.feature-box>p{
+    color: #727272;
+}
+.feature-box>h1,p{
+text-align: left;
+}
+.feature-box>p{
+    font-weight: 400;
+    font-size: 10px;
+}
+.feature-box>h1{
+    font-weight: 400;
+font-size: 16px;
+}
+.feature-love{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.feature-line{
+    font-weight: 400;
+font-size: 16px;
+}
+.girlimage>img{
+    width: 300px;
+}
+.girlimage > button{
+    position: relative ;
+    bottom: 120px;
+    left: 8px;
+    border-radius: 5px;
+background-color: orange;
+color: antiquewhite;
+    height: 80px;
+    width: 120px;
+    border: 0px;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+/* --------------
+some facts part css
+--------------- */
+
+
+.facts{height: 80px;
+    width: 250px;
+    padding-bottom: 40px;
+    padding-top: 0px;
+}
+.facts>p{
+    font-size: 10px;
+    color: #727272;
+}
+.fact-container{
+    display: flex;
+    flex-direction: column;
+padding-bottom: 60px;
+gap: 20px;
+
+}
+.fact-info:hover{
+    background-color: lightgrey;
+    border-color: blue;
+}
+
+.fact-info>img{
+    padding-left: 60px;
+    padding-top: 30px;
+    padding-right:60px ;
+
+}
+.fact-info>h2,p{
+   
+text-align: left;
+margin: 0px;
+}
+.fact-info{
+    width: 170px;
+    border-radius: 5px;
+    
+    border:#dcb90bef 3px solid;
+}
+
+/* special part from me  */
+.special{
+    align-items: left;
+}
+
+.special>h1{
+    text-align: center;
+    color: #424242;
+    font-weight: 500;
+font-size: 25px;
+}
+.special>img{
+    margin-left: 0px;
+    width: 300px;
+}
+
+/* ------------------------------
+Quick list feature part html 
+----------*/
+.sponsor{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 5px;
+    width: 250px;
+    height: 150px;
+    text-align: center;
+}
+.sponsor>h1{
+    font-weight: 700;
+font-size: 25px;
+}
+.sponsor>p{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.sponsor-image{
+ 
+    display: flex;
+
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.sponsor1{
+    width: 120px;
+}
+/* rights reserving section */
+.right-container{
+padding-top: 50px;
+    padding-bottom: 20px ;
+}
+.rights-reserved{
+    padding-top: 4px;
+    padding-bottom: 4px ;
+    
+   color:#727272;
+    background-color: #b1aaaa36;
+    text-align: center;
+    font-weight: 200;
+font-size: 10px;
+border-radius: 5px;
+}
+
+
+  }
